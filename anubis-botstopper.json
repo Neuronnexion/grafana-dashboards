@@ -2578,7 +2578,20 @@
         ]
       }
     },
-    "links": [],
+    "links": [
+      {
+        "asDropdown": false,
+        "icon": "external link",
+        "includeVars": false,
+        "keepTime": false,
+        "tags": [],
+        "targetBlank": true,
+        "title": "Source (GitHub)",
+        "tooltip": "Afficher le fichier source dans le référentiel",
+        "type": "link",
+        "url": "https://github.com/Neuronnexion/grafana-dashboards/blob/main/anubis-botstopper.json"
+      }
+    ],
     "liveNow": false,
     "preload": false,
     "tags": [],
@@ -2636,6 +2649,26 @@
           "regexApplyTo": "value",
           "skipUrlSync": false,
           "sort": "disabled"
+        }
+      },
+      {
+        "kind": "DatasourceVariable",
+        "spec": {
+          "allowCustomValue": true,
+          "current": {
+            "text": "Prometheus",
+            "value": "ee1jwr4kjnf9ca"
+          },
+          "hide": "hideVariable",
+          "includeAll": false,
+          "label": "prometheus",
+          "multi": false,
+          "name": "DS_PROMETHEUS",
+          "options": [],
+          "pluginId": "prometheus",
+          "refresh": "onDashboardLoad",
+          "regex": "",
+          "skipUrlSync": false
         }
       }
     ]
