@@ -43,7 +43,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "ee1jwr4kjnf9ca"
+                        "name": "${DS_PROMETHEUS}"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -66,7 +66,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "ee1jwr4kjnf9ca"
+                        "name": "${DS_PROMETHEUS}"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -89,7 +89,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "ee1jwr4kjnf9ca"
+                        "name": "${DS_PROMETHEUS}"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -112,7 +112,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "ee1jwr4kjnf9ca"
+                        "name": "${DS_PROMETHEUS}"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -668,7 +668,7 @@
                     "hidden": true,
                     "query": {
                       "datasource": {
-                        "name": "ee1jwr4kjnf9ca"
+                        "name": "${DS_PROMETHEUS}"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -690,7 +690,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "ee1jwr4kjnf9ca"
+                        "name": "${DS_PROMETHEUS}"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -839,7 +839,7 @@
                     "hidden": true,
                     "query": {
                       "datasource": {
-                        "name": "ee1jwr4kjnf9ca"
+                        "name": "${DS_PROMETHEUS}"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
@@ -861,7 +861,7 @@
                     "hidden": false,
                     "query": {
                       "datasource": {
-                        "name": "ee1jwr4kjnf9ca"
+                        "name": "${DS_PROMETHEUS}"
                       },
                       "group": "prometheus",
                       "kind": "DataQuery",
